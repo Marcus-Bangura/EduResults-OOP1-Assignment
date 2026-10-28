@@ -1,54 +1,103 @@
+
 # EduResults — OOP1 Assignment
 
-## Project overview
-EduResults is a menu-driven Python program for registering students, recording examination marks, calculating grades, and displaying report cards.
+## 1. Project Overview
 
-## Requirements
+EduResults is a menu-driven Python application developed for the Object-Oriented Programming 1 (OOP1) assignment.
+
+The system helps manage student records and examination results. It allows users to register students, record examination marks, calculate grades, and display student report cards.
+
+The project demonstrates the practical application of Object-Oriented Programming (OOP) principles in developing a simple educational management system.
+
+## 2. Project Objectives
+
+The objectives of EduResults are to:
+
+- Register students and maintain their records.
+- Record examination marks for different subjects.
+- Calculate students' averages and grades.
+- Display student report cards.
+- Search for registered students.
+- Demonstrate the use of classes, objects, methods, and data structures in Python.
+- Provide a simple and user-friendly menu-driven interface.
+
+## 3. Features
+
+The system includes the following features:
+
+### Student Registration
+Allows users to register students and enter the required student information.
+
+### Examination Mark Recording
+Allows users to enter and store examination marks for registered students.
+
+### Grade Calculation
+Calculates students' grades based on the grading scale implemented in the program.
+
+### Student Report Cards
+Displays student examination results, including marks, grades, averages, and academic status where supported by the program.
+
+### Student Search
+Allows users to search for student records using the available search functionality.
+
+### School Name Management
+Demonstrates changing the school name using a class method.
+
+## 4. Technologies Used
+
+- Programming Language: Python
+- Programming Paradigm: Object-Oriented Programming
+- Development Environment: Visual Studio Code
+- Version Control: Git
+- Code Hosting: GitHub
+
+## 5. System Requirements
+
+The following are required to run the application:
+
 - Python 3.10 or later is recommended.
-- No third-party packages are required.
+- Visual Studio Code or another Python-compatible editor.
+- A computer with a supported operating system.
+- No third-party Python packages are required, provided the program uses only Python's standard library.
 
-## How to run
-1. Extract the project folder.
-2. Open the folder in Visual Studio Code.
-3. Open Terminal → New Terminal.
-4. Run:
+## 6. Project Files
 
-   ```bash
-   python main.py
-   ```
+The repository contains the following files:
 
-## Example use
-1. Choose `1` and register student ID `ER-001`, name `Aminata Kamara`, class `SSS 2A`.
-2. Choose `2` and enter student ID `ER-001`, subject `Mathematics`, mark `75`.
-3. Repeat option 2 for other subjects.
-4. Choose `3` and enter `ER-001` to display the report card.
+| File | Description |
+|---|---|
+| `main.py` | Main Python application. |
+| `test_eduresults.py` | Python test file for checking application functionality. |
+| `README.md` | Project documentation and instructions. |
+| `change school name.png` | Screenshot demonstrating the school-name functionality. |
+| `display all students.png` | Screenshot demonstrating the display of student records. |
+| `display student report card.png` | Screenshot demonstrating the student report card. |
+| `main menu.png` | Screenshot of the application's main menu. |
+| `Record examination mark.png` | Screenshot demonstrating examination mark recording. |
+| `register a student.png` | Screenshot demonstrating student registration. |
+| `search for a student.png` | Screenshot demonstrating student search. |
 
-## OOP concepts demonstrated
-- `Student`, `Examination`, and `ResultManagementSystem` classes.
-- Objects are created from these classes and interact with each other.
-- Instance methods include `add_mark`, `calculate_average`, `add_student`, and `display_report_card`.
-- Class method: `Student.change_school_name`.
-- Dictionary data structure: `ResultManagementSystem.students` stores Student objects using student IDs as keys.
+## 7. How to Install and Run the Program
 
-## Data structure note
-The assignment permits a list or dictionary. This project uses a dictionary, where each unique student ID maps to a Student object.
+Follow these steps to run EduResults on your computer.
 
-## Digital Public Goods (DPG) alignment
-- **Open source:** source code can be published in a public GitHub repository.
-- **Inclusive design:** clear menu options, prompts, and validation messages.
-- **Privacy-respecting:** use fictional demonstration data; no data is sent to an external service.
-- **Modular and reusable:** responsibilities are separated into classes and methods.
+### Step 1: Download the Project
 
-## Limitations
-- Records are stored in memory and disappear when the program exits.
-- This assignment version does not include user login, a persistent database, or a web interface.
-- The grading scale is illustrative and should be adjusted to the institution's approved policy before real-world use.
-- This is an educational prototype, not a production school information system.
+Open the GitHub repository and download the project files, or clone the repository using Git.
 
-## Suggested screenshots for submission
-1. Main menu.
-2. Successful student registration.
-3. Recording a mark.
-4. Report card showing marks, grades, average, and status.
-5. Search result.
-6. Class method demonstration changing the school name.
+### Step 2: Open the Project
+
+Extract the downloaded files if necessary and open the project folder in Visual Studio Code.
+
+### Step 3: Open the Terminal
+
+In Visual Studio Code, select:
+
+Terminal → New Terminal
+
+### Step 4: Run the Application
+
+Enter the following command in the terminal:
+
+```bash
+python main.py
